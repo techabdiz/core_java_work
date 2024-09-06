@@ -1,9 +1,7 @@
 package com.deadspider;
 
 import java.util.function.BiPredicate;
-import java.util.function.BinaryOperator;
 import java.util.function.Predicate;
-import java.util.function.Supplier;
 import java.util.function.UnaryOperator;
 
 @FunctionalInterface
