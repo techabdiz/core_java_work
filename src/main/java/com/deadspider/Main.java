@@ -1,25 +1,20 @@
 package com.deadspider;
 
-import reactor.core.publisher.Flux;
+import java.util.Date;
 import reactor.core.publisher.Mono;
 
 public class Main {
-
     public static void main(String[] args) {
+        Mono<String> mono = Mono.just(getDate())
+            .doOnNext(val -> {
+                System.out.println("value : " + val + " " + Thread.currentThread().getName());
+            });
 
-        Flux.just(returnString())
-           .subscribe(System.out::println);
-
-      Flux.from((s)->returnString())
-        .subscribe(System.out::println);
-
-        
+        mono
+        .map(s-> s + " mmy value ").subscribe();
     }
 
-    public static String returnString() {
-        System.out.println("function executed... ");
-        return "phyak u";
+    public static String getDate(){ 
+        return new Date().toString();
     }
-
-
 }
