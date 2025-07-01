@@ -21,7 +21,7 @@ public class FluxCombine {
             .map(s -> "second: " + s)
         );
 
-        f.subscribe(System.out::println, System.out::println, ()->{
+        f.take(2).subscribe(System.out::println, System.out::println, ()->{
             System.out.println("completed");
         });
 
