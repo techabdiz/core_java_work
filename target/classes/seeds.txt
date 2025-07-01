@@ -1,0 +1,11 @@
+https://www.rfc-editor.org/rfc/rfc5322.txt,
+https://www.rfc-editor.org/rfc/rfc7990.txt,
+https://www.rfc-editor.org/rfc/rfc7994.txt,
+https://www.rfc-editor.org/rfc/rfc8493.txt,
+https://www.rfc-editor.org/rfc/rfc5485.txt,
+https://www.rfc-editor.org/rfc/rfc8358.txt,
+https://www.rfc-editor.org/rfc/rfc7995.txt,
+https://www.rfc-editor.org/rfc/rfc7992.txt,
+https://www.rfc-editor.org/rfc/rfc5321.txt,
+https://www.rfc-editor.org/rfc/rfc791.txt,
+https://www.ietf.org/rfc/rfc2616.txt
